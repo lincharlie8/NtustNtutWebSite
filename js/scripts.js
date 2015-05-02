@@ -39,7 +39,7 @@ $(document).ready(function() {
 	}, {
 		offset: '75%'
 	});
-	if($(window).width()<600){
+	if($(window).width()<800){
 
 	$('.wp8').waypoint(function() {
 		$('.wp9').removeClass('animated fadeInUp hover');
