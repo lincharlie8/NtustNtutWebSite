@@ -15,17 +15,20 @@ $(function(){
 	}
 	window.onload=init;
 
-	function getTxt(src){
+	function getTxt(src){ //讀txt檔
 
 		$.get(src, function(data){
 			$(".getText").attr("heis",data);
 		});
 	}
+
 	$('.team').click(function(){
 			team=$(this).attr('heis');
 			$.get("./img/teacher/"+ team+"/student.txt", function(data){
 			$.get("./img/teacher/"+ team+"/info.txt", function(data1){
 				//alert(data1);
+
+				
 				teamContext="<section class=\"features text-center  "+team+"\" id=\""+team+"\">";
 
 				hash = data.split("\n");
@@ -45,7 +48,7 @@ $(function(){
 				teamContext+="</div >";
 				teamContext+="</div >";
 
-                teamContext+="<div class=\"text-left col-md-8 \" style=\"  padding-left:20px; padding-bottom:20px; color:#a1a9b0\">";
+                teamContext+="<div class=\"text-left col-md-8 \" style=\"  padding-left:20px; padding-bottom:20px; color:#a1a9b0; font-size:15px; \">";
                 teamContext+="<h1 style=\"color:white; \" >"+ hashT[0]+"</h1>";
 
                     for(var j=1;j<hashT.length;j++){
@@ -67,7 +70,7 @@ $(function(){
                         
                     teamContext+="<div >";
                     teamContext+="<a class=\"various \" data-fancybox-type=\"iframe\" href=\"fancybox.html?text="+ hashD[0]+"&page="+hashD[2]+"\">";
-                    teamContext+="<img src=\"img/student/"+ hashD[0]+"/00.png\" heis=\""+ hashD[0]+"\" class=\"icon\">";
+                    teamContext+="<img src=\"img/student/"+ hashD[0]+"/00_compressed.jpg\" heis=\""+ hashD[0]+"\" class=\"icon\">";
                     teamContext+="</a>";
                     teamContext+="</div>";
                     teamContext+="<div>";
@@ -135,6 +138,10 @@ $(function(){
 				closeEffect	: 'none',
 				scrollbar:'auto'
 			});
+	$(".fancybox1").fancybox({
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
 	/*$(".icon").hover(function() {
      // alert("xxx");
      $('.icon').stop().css('opacity','0.5');

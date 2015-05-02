@@ -8,6 +8,11 @@ $(document).ready(function() {
 	}, {
 		offset: '75%'
 	});
+	$('.wp10').waypoint(function() {
+		$('.wp10').addClass('animated fadeInLeft');
+	}, {
+		offset: '75%'
+	});
 	$('.wp2').waypoint(function() {
 		$('.wp2').addClass('animated fadeInUp');
 	}, {

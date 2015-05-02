@@ -66,11 +66,11 @@
                     <ul class="nav navbar-nav">
                         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                         <li  >
-                            <a class="select" href="#info1">質變</a>
+                            <a class="select" href="#slogen">質變</a>
                         </li>
-                        <li>
+                        <!--li>
                             <a class="select" href="#aboutUs">關於我們</a>
-                        </li>
+                        </li-->
                         <li>
                             <a  class="select" href="#schedule">活動時程</a>
                         </li>
@@ -78,15 +78,17 @@
                         <li>
                             <a class="select select_design" href="#design">我們的作品</a>
                         </li>
-                        <!--li>
-                            <a class="select"  href="#team">周邊商品</a>
-                        </li-->
+                        <li id="product_mobile">
+                            <a class="select"   href="#responsive">周邊商品</a>
+                        </li>
                         <li>
                             <a class="select"href="#contact">展覽地點</a>
                         </li>
                     </ul>
                 </div>
+
                 <!-- /.navbar-collapse -->
+
             </div>
             <!-- /.container-->
              </nav>
@@ -115,8 +117,19 @@
 
 
         </header>
-
-        <section class="info1 text-left section-padding" id="info1">
+        <section class="swag text-center" id="slogen">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 style="color:white;">質變</h1>
+                <h2 style="color:white; font-size:25px;" >蘊含著物理與化學的拆解交纏，猶如古老鍊金術裡，劣等物質轉換成貴金屬的一連串複雜反應</h2>
+                  <h2 style="color:white; font-size:20px;">在冶鍊過程中，物質外在型態到達一定程度時，便開始轉向內在本質的轉化。</h2>
+               
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="info1 text-left section-padding hidden" id="info1">
           <div class="container">
             <div class="row">
               <div class="col-md-4 col-md-offset-1 wp1">
@@ -131,31 +144,22 @@
           </div>
 
         </section>
-        <section class="info2 text-center section-padding hidden" id="info2">
+        <section class="info2 text-center section-padding " id="info2" style="background:black;">
           <div class="container">
             <div class="row">
               <div class=" wp1">
-                <iframe class="col-md-5 col-md-offset-1"  src="//player.vimeo.com/video/23311782" height="300vw" frameborder="0" webkitallowfullscreen="" mozallowfullscreen ></iframe>
+                <iframe class="col-md-10 col-md-offset-1"  src="//player.vimeo.com/video/23311782" height="500vw" frameborder="0" webkitallowfullscreen="" mozallowfullscreen ></iframe>
               </div>
-              <div class="col-md-5 col-md-offset-1 wp1">
+              <!--div class="col-md-5 col-md-offset-1 wp1">
                 <h1 class="arrow ">質變</h1>
                 <p>內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文</p>
-              </div>
+              </div-->
             </div>
           </div>
 
         </section>
       
-       <section class="swag text-center">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2">
-                <h1>Slogan Slogan<span>Slogan <em>Slogan</em> Slogan</span></h1>
-                <!--a href="#portfolio" class="down-arrow-btn"><i class="fa fa-chevron-down"></i></a-->
-              </div>
-            </div>
-          </div>
-        </section>
+
 
           <section class="info1  text-center section-padding hidden" id="aboutUs">
           <div class="container">
@@ -324,19 +328,19 @@
 
 
  
- <section class="portfolio text-center section-padding " style="background-color:#242830;" id="design">
+ <section class="portfolio text-center section-padding " style="background-color:#cccccc;" id="design">
           <div class="container col-md-12 teamselect">
             <div class="row">
 
-                    <div class="col-md-6 wp4">
-                      <div class="overlay-effect effects clearfix">
-                          <h1 style="font-size:50px; color:white;">質變產物</h1>
+                    <div class="col-md-6" >
+                      <div class="" style="padding-top:30px;">
+                          <h1 style="font-size:50px; color:black;" >我們的作品</h1>
                       </div>
                     </div>
                     <div class="col-md-3 wp4">
                       <div class="overlay-effect effects clearfix">
                         <div class="img mbImg" >
-                          <img src="img/portfolio-01.jpg" alt="Design Item" >
+                          <img src="./img/design/03_compressed.jpg" alt="Design Item" >
                           <div class="overlay wp8 delay-3s">
 
                             <a htef="#" class="expand1 team"  heis="李約德"><br>李約德老師組</a>
@@ -349,7 +353,7 @@
                     <div class="col-md-3 wp4">
                       <div class="overlay-effect effects clearfix">
                         <div class="img mbImg">
-                          <img src="img/portfolio-01.jpg" alt="Design Item" >
+                          <img src="./img/design/04_compressed.jpg" alt="Design Item" >
                           <div class="overlay wp8 delay-3s">
 
                             <a htef="#" class="expand1 team"  heis="李峻霖"><br>李峻霖老師組</a>
@@ -367,7 +371,7 @@
                    <div class="col-md-3 wp4" >
                       <div class="overlay-effect effects clearfix" >
                         <div class="img mbImg">
-                          <img src="img/portfolio-01.jpg" alt="Design Item" >
+                          <img src="./img/design/05_compressed.jpg" alt="Design Item" >
                           <div class="overlay wp8 delay-3s">
 
                             <a htef="#" class="expand1 team"  heis="張弘樺"><br>張弘樺老師組</a>
@@ -380,7 +384,7 @@
                     <div class="col-md-3 wp4">
                       <div class="overlay-effect effects clearfix">
                         <div class="img mbImg">
-                          <img src="img/portfolio-01.jpg" alt="Design Item">
+                          <img src="./img/design/06_compressed.jpg" alt="Design Item">
                           <div class="overlay wp8 delay-3s">
 
                             <a htef="#" class="expand1 team"  heis="張容豪"><br>張容豪老師組</a>
@@ -393,7 +397,7 @@
                      <div class="col-md-3 wp4">
                       <div class="overlay-effect effects clearfix">
                         <div class="img mbImg">
-                          <img src="img/portfolio-01.jpg" alt="Design Item">
+                          <img src="./img/design/07_compressed.jpg" alt="Design Item">
                           <div class="overlay wp8 delay-3s">
 
                             <a htef="#" class="expand1 team"  heis="張效通"><br>張效通老師組</a>
@@ -406,7 +410,7 @@
                     <div class="col-md-3 wp4">
                       <div class="overlay-effect effects clearfix">
                         <div class="img mbImg">
-                          <img src="img/portfolio-01.jpg" alt="Design Item">
+                          <img src="./img/design/08_compressed.jpg" alt="Design Item">
                           <div class="overlay wp8 delay-3s">
 
                             <a htef="#" class="expand1 team"  heis="張純德"><br>張純德老師組</a>
@@ -422,7 +426,7 @@
                    <div class="col-md-3 wp4">
                       <div class="overlay-effect effects clearfix">
                         <div class="img mbImg">
-                          <img src="img/portfolio-01.jpg" alt="Design Item">
+                          <img src="./img/design/09_compressed.jpg" alt="Design Item">
                           <div class="overlay wp8 delay-3s">
 
                             <a htef="#" class="expand1 team"  heis="莊亦婷"><br>莊亦婷老師組</a>
@@ -435,7 +439,7 @@
                     <div class="col-md-3 wp4">
                       <div class="overlay-effect effects clearfix">
                         <div class="img mbImg" >
-                          <img src="img/portfolio-01.jpg" alt="Design Item">
+                          <img src="./img/design/10_compressed.jpg" alt="Design Item">
                           <div class="overlay wp8 delay-3s">
 
                             <a htef="#" class="expand1 team"  heis="許伯元"><br>許伯元老師組</a>
@@ -448,7 +452,7 @@
                      <div class="col-md-3 wp4">
                       <div class="overlay-effect effects clearfix">
                         <div class="img mbImg">
-                          <img src="img/portfolio-01.jpg" alt="Design Item">
+                          <img src="./img/design/11_compressed.jpg" alt="Design Item">
                           <div class="overlay wp8 delay-3s">
 
                             <a htef="#" class="expand1 team"  heis="郭英釗"><br>郭英釗老師組</a>
@@ -461,7 +465,7 @@
                     <div class="col-md-3 wp4">
                       <div class="overlay-effect effects clearfix">
                         <div class="img mbImg">
-                          <img src="img/portfolio-01.jpg" alt="Design Item">
+                          <img src="./img/design/12_compressed.jpg" alt="Design Item">
                           <div class="overlay wp8 delay-3s">
 
                             <a htef="#" class="expand1 team"  heis="陳圳卿"><br>陳圳卿老師組</a>
@@ -477,7 +481,7 @@
                    <div class="col-md-3 wp4">
                       <div class="overlay-effect effects clearfix">
                         <div class="img mbImg">
-                          <img src="img/portfolio-01.jpg" alt="Design Item">
+                          <img src="./img/design/13_compressed.jpg" alt="Design Item">
                           <div class="overlay wp8 delay-3s">
 
                             <a htef="#" class="expand1 team"  heis="黃明仁"><br>黃明仁老師組</a>
@@ -490,7 +494,7 @@
                     <div class="col-md-3 wp4">
                       <div class="overlay-effect effects clearfix">
                         <div class="img mbImg">
-                          <img src="img/portfolio-01.jpg" alt="Design Item">
+                          <img src="./img/design/14_compressed.jpg" alt="Design Item">
                           <div class="overlay wp8 delay-3s">
 
                             <a htef="#" class="expand1 team"  heis="黃聖傑"><br>黃聖傑老師組</a>
@@ -503,7 +507,7 @@
                      <div class="col-md-3 wp4">
                       <div class="overlay-effect effects clearfix">
                         <div class="img mbImg">
-                          <img src="img/portfolio-01.jpg" alt="Design Item">
+                          <img src="./img/design/15_compressed.jpg" alt="Design Item">
                           <div class="overlay wp8 delay-3s">
 
                             <a htef="#" class="expand1 team"  heis="楊佳璋"><br>楊佳璋老師組</a>
@@ -516,7 +520,7 @@
                     <div class="col-md-3 wp4">
                       <div class="overlay-effect effects clearfix">
                         <div class="img mbImg">
-                          <img src="img/portfolio-01.jpg" alt="Design Item">
+                          <img src="./img/design/16_compressed.jpg" alt="Design Item">
                           <div class="overlay wp8 delay-3s">
 
                             <a htef="#" class="expand1 team"  heis="楊宙航"><br>楊宙航老師組</a>
@@ -532,7 +536,7 @@
                    <div class="col-md-3 wp4">
                       <div class="overlay-effect effects clearfix">
                         <div class="img mbImg">
-                          <img src="img/portfolio-01.jpg" alt="Design Item">
+                          <img src="./img/design/17_compressed.jpg" alt="Design Item">
                           <div class="overlay wp8 delay-3s">
 
                             <a htef="#" class="expand1 team"  heis="賴伯威"><br>賴伯威老師組</a>
@@ -545,7 +549,7 @@
                     <div class="col-md-3 wp4">
                       <div class="overlay-effect effects clearfix">
                         <div class="img mbImg">
-                          <img src="img/portfolio-01.jpg" alt="Design Item">
+                          <img src="./img/design/18_compressed.jpg" alt="Design Item">
                           <div class="overlay wp8 delay-3s">
 
                             <a htef="#" class="expand1 team"  heis="戴嘉惠"><br>戴嘉惠老師組</a>
@@ -558,7 +562,7 @@
                      <div class="col-md-3 wp4">
                       <div class="overlay-effect effects clearfix">
                         <div class="img mbImg">
-                          <img src="img/portfolio-01.jpg" alt="Design Item">
+                          <img src="./img/design/19_compressed.jpg" alt="Design Item">
                           <div class="overlay wp8 delay-3s">
 
                             <a htef="#" class="expand1 team"  heis="薛方杰"><br>薛方杰老師組</a>
@@ -584,14 +588,380 @@
         <div class="ignite-cta text-center">
           <div class="container">
             <div class="row">
-                <h2 class="text-center back hidden" style="cursor:pointer; color:white; font-size:50px;" heis="team1-1" href="#desing"> back </h2>
+                <h2 class="text-center back hidden" style="cursor:pointer; color:black; font-size:50px;" heis="team1-1" href="#desing"> back </h2>
               
             </div>
           </div>
         </div>
+        <section class="text-center mobile " id="responsive_mobile" style="padding-top:50px;">
+          <h1 style=" color:white; font-size:30px;" >周邊產品</h1>
 
+           <div class="row" style="margin:10px 0px;">
+              <a class="fancybox1" rel="gallery1" href="./img/production/01_compressed.jpg" >
+                <img src="./img/production/01_compressed.jpg" height="100px;" width="100px;">                        
+               
+              </a>
+              <a class="fancybox1" rel="gallery1" href="./img/production/02_compressed.jpg" >
 
-        
+                <img src="./img/production/02_compressed.jpg" height="100px;" width="100px;">
+              </a>
+              
+              <a class="fancybox1" rel="gallery1" href="./img/production/03_compressed.jpg" >
+                 <img src="./img/production/03_compressed.jpg" height="100px;" width="100px;">
+              </a>
+           </div>
+           <div class="row" style="margin:10px 0px;">
+               <a class="fancybox1" rel="gallery1" href="./img/production/04_compressed.jpg" >
+                <img src="./img/production/04_compressed.jpg" height="100px;" width="100px;">
+               
+              </a>
+              <a class="fancybox1" rel="gallery1" href="./img/production/05_compressed.jpg" >
+
+                <img src="./img/production/05_compressed.jpg" height="100px;" width="100px;">
+              </a>
+              
+              <a class="fancybox1" rel="gallery1" href="./img/production/06_compressed.jpg" >
+                <img src="./img/production/06_compressed.jpg" height="100px;" width="100px;">
+              </a>
+         
+
+           </div>
+                <a class="fancybox1" rel="gallery1" href="./img/production/07_compressed.jpg" >
+                        <img src="./img/production/07_compressed.jpg" height="100px;" width="100px;">
+               
+              </a>
+              <a class="fancybox1" rel="gallery1" href="./img/production/08_compressed.jpg" >
+
+                          <img src="./img/production/08_compressed.jpg" height="100px;" width="100px;">
+              </a>
+              
+              <a class="fancybox1" rel="gallery1" href="./img/production/09_compressed.jpg" >
+                        <img src="./img/production/09_compressed.jpg" height="100px;" width="100px;">
+              </a>
+                    
+            </div>
+              <div class="row" style="margin:10px 0px;">
+                     <a class="fancybox1" rel="gallery1" href="./img/production/10_compressed.jpg" >
+                        <img src="./img/production/10_compressed.jpg" height="100px;" width="100px;">
+               
+                    </a>
+                    <a class="fancybox1" rel="gallery1" href="./img/production/11_compressed.jpg" >
+
+                                <img src="./img/production/11_compressed.jpg" height="100px;" width="100px;">
+                    </a>
+                    
+                    <a class="fancybox1" rel="gallery1" href="./img/production/12_compressed.jpg" >
+                              <img src="./img/production/12_compressed.jpg" height="100px;" width="100px;">
+                    </a>
+                
+          
+            </div>
+              <div class="row" style="margin:10px 0px;">
+                  <a class="fancybox1" rel="gallery1" href="./img/production/13_compressed.jpg" >
+                        <img src="./img/production/13_compressed.jpg" height="100px;" width="100px;">
+               
+                    </a>
+                    <a class="fancybox1" rel="gallery1" href="./img/production/14_compressed.jpg" >
+
+                                <img src="./img/production/14_compressed.jpg" height="100px;" width="100px;">
+                    </a>
+                    
+                    <a class="fancybox1" rel="gallery1" href="./img/production/15_compressed.jpg" >
+                              <img src="./img/production/15_compressed.jpg" height="100px;" width="100px;">
+                    </a>
+            </div>
+              <div class="row" style="margin:10px 0px;">
+                       <a class="fancybox1" rel="gallery1" href="./img/production/16_compressed.jpg" >
+                        <img src="./img/production/16_compressed.jpg" height="100px;" width="100px;">
+               
+                    </a>
+                    <a class="fancybox1" rel="gallery1" href="./img/production/17_compressed.jpg" >
+
+                                <img src="./img/production/17_compressed.jpg" height="100px;" width="100px;">
+                    </a>
+                    
+                    <a class="fancybox1" rel="gallery1" href="./img/production/19_compressed.jpg" >
+                              <img src="./img/production/19_compressed.jpg" height="100px;" width="100px;">
+                    </a>
+                   
+            </div>
+              <div class="row" style="margin:10px 0px;">
+                    <a class="fancybox1" rel="gallery1" href="./img/production/20_compressed.jpg" >
+                        <img src="./img/production/20_compressed.jpg" height="100px;" width="100px;">
+               
+                    </a>
+                    <a class="fancybox1" rel="gallery1" href="./img/production/21_compressed.jpg" >
+
+                                <img src="./img/production/21_compressed.jpg" height="100px;" width="100px;">
+                    </a>
+                    
+                    <a class="fancybox1" rel="gallery1" href="./img/production/22_compressed.jpg" >
+                              <img src="./img/production/22_compressed.jpg" height="100px;" width="100px;">
+                    </a>
+                      
+              <div class="row" style="margin:10px 0px;">
+                   <a class="fancybox1" rel="gallery1" href="./img/production/23_compressed.jpg" >
+                        <img src="./img/production/23_compressed.jpg" height="100px;" width="100px;">
+               
+                    </a>
+                    <a class="fancybox1" rel="gallery1" href="./img/production/25_compressed.jpg" >
+
+                                <img src="./img/production/25_compressed.jpg" height="100px;" width="100px;">
+                    </a>
+                    
+                    <a class="fancybox1" rel="gallery1" href="./img/production/29_compressed.jpg" >
+                              <img src="./img/production/29_compressed.jpg" height="100px;" width="100px;">
+                    </a>
+                   
+            </div>
+              <div class="row" style="margin:10px 0px;">
+                 <a class="fancybox1" rel="gallery1" href="./img/production/26_compressed.jpg" >
+                        <img src="./img/production/26_compressed.jpg" height="100px;" width="100px;">
+               
+                    </a>
+                    <a class="fancybox1" rel="gallery1" href="./img/production/30_compressed.jpg" >
+
+                                <img src="./img/production/30_compressed.jpg" height="100px;" width="100px;">
+                    </a>
+                    
+                    <a class="fancybox1" rel="gallery1" href="./img/production/32_compressed.jpg" >
+                              <img src="./img/production/32_compressed.jpg" height="100px;" width="100px;">
+                    </a>
+          
+            </div>
+              <div class="row" style="margin:10px 0px;">
+                 <a class="fancybox1" rel="gallery1" href="./img/production/31_compressed.jpg" >
+                        <img src="./img/production/31_compressed.jpg" height="100px;" width="100px;">
+               
+                    </a>
+                    <a class="fancybox1" rel="gallery1" href="./img/production/33_compressed.jpg" >
+
+                                <img src="./img/production/33_compressed.jpg" height="100px;" width="100px;">
+                    </a>
+                    
+                    <a class="fancybox1" rel="gallery1" href="./img/production/34_compressed.jpg" >
+                              <img src="./img/production/34_compressed.jpg" height="100px;" width="100px;">
+                    </a>
+                       
+            </div>
+                <div class="row" style="margin:10px 0px;">
+                  <a class="fancybox1" rel="gallery1" href="./img/production/36_compressed.jpg" >
+                        <img src="./img/production/36_compressed.jpg" height="100px;" width="100px;">
+               
+                    </a>
+                    <a class="fancybox1" rel="gallery1" href="./img/production/40_compressed.jpg" >
+
+                                <img src="./img/production/40_compressed.jpg" height="100px;" width="100px;">
+                    </a>
+                    
+                    <a class="fancybox1" rel="gallery1" href="./img/production/41_compressed.jpg" >
+                              <img src="./img/production/41_compressed.jpg" height="100px;" width="100px;">
+                    </a>
+                       
+            </div>
+                <div class="row" style="margin:10px 0px;">
+                    <a class="fancybox1" rel="gallery1" href="./img/production/43_compressed.jpg" >
+                        <img src="./img/production/43_compressed.jpg" height="100px;" width="100px;">
+               
+                    </a>
+                    <a class="fancybox1" rel="gallery1" href="./img/production/45_compressed.jpg" >
+
+                                <img src="./img/production/45_compressed.jpg" height="100px;" width="100px;">
+                    </a>
+                    
+                    <a class="fancybox1" rel="gallery1" href="./img/production/46_compressed.jpg" >
+                              <img src="./img/production/46_compressed.jpg" height="100px;" width="100px;">
+                    </a>                       
+                   
+                        
+            </div>
+              <div class="row" style="margin:10px 0px;">
+                <a class="fancybox1" rel="gallery1" href="./img/production/47_compressed.jpg" >
+                        <img src="./img/production/47_compressed.jpg" height="100px;" width="100px;">
+               
+                    </a>
+                    <a class="fancybox1" rel="gallery1" href="./img/production/48_compressed.jpg" >
+
+                                <img src="./img/production/48_compressed.jpg" height="100px;" width="100px;">
+                    </a>
+                    
+                    <a class="fancybox1" rel="gallery1" href="./img/production/49_compressed.jpg" >
+                              <img src="./img/production/49_compressed.jpg" height="100px;" width="100px;">
+                    </a>
+              
+            </div>
+              <div class="row" style="margin:10px 0px;">
+                      <a class="fancybox1" rel="gallery1" href="./img/production/50_compressed.jpg" >
+
+                                <img src="./img/production/50_compressed.jpg" height="100px;" width="100px;">
+                    </a>
+                    
+                    <a class="fancybox1" rel="gallery1" href="./img/production/51_compressed.jpg" >
+                              <img src="./img/production/51_compressed.jpg" height="100px;" width="100px;">
+                    </a>
+              
+                      
+                    
+            </div>
+               
+        </section>
+
+         <section class="text-center pc " id="responsive" style="background:url('./img/HomeBackground.jpg') no-repeat center center; padding:50px 0px; ">
+          <h1 style=" padding-top:50px; margin-bottom:-50px; color:white; font-size:30px;" >周邊產品</h1>
+          <div class="container-fluid nopadding responsive-services">
+            <div class="wrapper">
+              <div >
+                <div class="wp10"></div>
+              </div>
+              <div class="fluid-white"></div>
+            </div>
+            <div class="container designs">
+              <div class="row">
+                <div class="col-md-12 ">
+                  <div id="servicesSlider">
+                    <ul class="slides">
+                      <li >
+                        <img src="./img/production/01_compressed.jpg" height="500px;" width="auto;">
+                        
+                        <img src="./img/production/02_compressed.jpg" height="500px;" width="auto;">
+                        
+                      </li>
+
+                      <li>
+                        <img src="./img/production/03_compressed.jpg" height="500px;" width="auto;">
+                         <img src="./img/production/12_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      <li>
+                        <img src="./img/production/04_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      <li>
+                        <img src="./img/production/05_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+
+                      <li>
+                        <img src="./img/production/06_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      <li>
+                        <img src="./img/production/07_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      <li>
+                        <img src="./img/production/08_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+
+                      <li>
+                        <img src="./img/production/09_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      <li>
+                        <img src="./img/production/10_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      <li>
+                        <img src="./img/production/11_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      <li>
+                        <img src="./img/production/13_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      <li>
+                        <img src="./img/production/14_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      <li>
+                        <img src="./img/production/15_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+
+                      <li>
+                        <img src="./img/production/16_compressed.jpg" height="500px;" width="auto;">
+                        <img src="./img/production/17_compressed.jpg" height="500px;" width="auto;">
+                      </li> 
+                      
+
+                      <li>
+                        <img src="./img/production/19_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      <li>
+                        <img src="./img/production/20_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      <li>
+                        <img src="./img/production/21_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      <li>
+                        <img src="./img/production/22_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      <li>
+                        <img src="./img/production/23_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      
+                      <li>
+                        <img src="./img/production/25_compressed.jpg" height="500px;" width="auto;">
+                         <img src="./img/production/29_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+
+                      <li>
+                        <img src="./img/production/26_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      
+
+                      <li>
+                        <img src="./img/production/30_compressed.jpg" height="500px;" width="auto;">
+                          <img src="./img/production/32_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      <li>
+                        <img src="./img/production/31_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                    
+                      <li>
+                        <img src="./img/production/33_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      <li>
+                        <img src="./img/production/34_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      
+
+                      <li>
+                        <img src="./img/production/36_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                     
+                     
+                      <li>
+                        <img src="./img/production/40_compressed.jpg" height="500px;" width="auto;">
+                        <img src="./img/production/41_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                     
+                      
+                      <li>
+                        <img src="./img/production/43_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      
+                      <li>
+                        <img src="./img/production/45_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+
+                      <li>
+                        <img src="./img/production/46_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      <li>
+                        <img src="./img/production/47_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      <li>
+                        <img src="./img/production/48_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+
+                      <li>
+                        <img src="./img/production/49_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      <li>
+                        <img src="./img/production/50_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      <li>
+                        <img src="./img/production/51_compressed.jpg" height="500px;" width="auto;">
+                      </li>
+                      
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
 
 
@@ -642,12 +1012,12 @@
             <div class="row">
               <div class="col-md-6">
                 <ul class="legals">
-                  <li><a href="#">Terms &amp; Conditions</a></li>
-                  <li><a href="#">Legals</a></li>
+                  <li><a href="#">Developed by </a></li>
+                  <li><a href="#">Natsuki</a></li>
                 </ul>
               </div>
               <div class="col-md-6 credit">
-                <p>Designed &amp; Developed by <a href="http://www.peterfinlan.com/">Peter Finlan</a> exclusively for <a href="http://tympanus.net/codrops/"><em>Codrops</em></a></p>
+                <p>Designed by Peter Finlan exclusively for <a href="http://tympanus.net/codrops/"><em>Codrops</em></a></p>
                 <p class="getText" heis=""></p>
               </div>
             </div>
