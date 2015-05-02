@@ -46,41 +46,44 @@ $(document).ready(function() {
 	if($(window).width()<550){
 
 	$('.wp8').waypoint(function() {
-		$('.wp8').removeClass('animated fadeInUp hover');
+		$('.wp10').removeClass('animated fadeInUp hover');
 		//$('.wp10').removeClass('animated fadeInUp hover');
 		//$('.wp11').removeClass('animated fadeInUp hover');
 
-		$(this).addClass('animated fadeInUp hover');
-	}, {
-		offset: '50%'
-	});
-
-	$('.wp9').waypoint(function() {
-		$('.wp8').removeClass('animated fadeInUp hover');
-		$('.wp10').removeClass('animated fadeInUp hover');
-		$('.wp11').removeClass('animated fadeInUp hover');
-
+		$(".wp8").addClass('animated fadeInUp hover');
 		$('.wp9').addClass('animated fadeInUp hover');
 	}, {
 		offset: '50%'
 	});
 
-	$('.wp10').waypoint(function() {
-		$('.wp9').removeClass('animated fadeInUp hover');
-		$('.wp8').removeClass('animated fadeInUp hover');
+	$('.wp9').waypoint(function() {
+		
+		
 		$('.wp11').removeClass('animated fadeInUp hover');
 
+		$('.wp9').addClass('animated fadeInUp hover');
 		$('.wp10').addClass('animated fadeInUp hover');
 	}, {
 		offset: '50%'
 	});
 
-	$('.wp11').waypoint(function() {
-		$('.wp9').removeClass('animated fadeInUp hover');
-		$('.wp10').removeClass('animated fadeInUp hover');
+	$('.wp10').waypoint(function() {
+		
 		$('.wp8').removeClass('animated fadeInUp hover');
+		
+
+		$('.wp10').addClass('animated fadeInUp hover');
+		$('.wp11').addClass('animated fadeInUp hover');
+	}, {
+		offset: '50%'
+	});
+
+	$('.wp11').waypoint(function() {
+		
+		$('.wp9').removeClass('animated fadeInUp hover');
 
 		$('.wp11').addClass('animated fadeInUp hover');
+		$('.wp8').addClass('animated fadeInUp hover');
 	}, {
 		offset: '50%'
 	});
