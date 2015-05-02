@@ -23,6 +23,11 @@ $(function(){
 	}
 
 	$('.team').click(function(){
+		if(team!=$(this).attr('heis')){
+
+
+
+		
 			team=$(this).attr('heis');
 			$.get("./img/teacher/"+ team+"/student.txt", function(data){
 			$.get("./img/teacher/"+ team+"/info.txt", function(data1){
@@ -115,13 +120,14 @@ $(function(){
 
 			});
 			});
+		}
 	});
 	
 	$('.back').click(function(){
 			$('.select_design').attr('href','#design');
 			$('.teamselect').slideDown(1000);
 			
-
+			team="";
 			//$('#'+$(this).attr('heis')).css('opacity','+=0.7' );
         	$(".features").remove();
 
