@@ -41,22 +41,28 @@ $(function(){
            	   // teamContext+=" <h1 class=\"arrow\" style=\"color:white; \"><strong>"+team+"</strong></h1>";
            		teamContext+="<div class=\"row\" style=\"background-color:#242830;\" >";
 
-             	teamContext+="<div class=\"col-md-4\" >";
-                teamContext+="<div  style=\"overflow:hidden;  \">";
+             	//teamContext+="<div class=\"col-md-4\" >";
+                //teamContext+="<div  style=\"overflow:hidden;  \">";
 
-                teamContext+="<img src=\"img/teacher/"+ team+"/photo.jpg\"  style=\" padding-bottom:20px; height:300px;  text-align: center;\">";
-				teamContext+="</div >";
-				teamContext+="</div >";
+               // teamContext+="<img src=\"img/teacher/"+ team+"/photo.jpg\"  style=\" padding-bottom:20px; height:300px;  text-align: center;\">";
+				//teamContext+="</div >";
+				//teamContext+="</div >";
 
                 teamContext+="<div class=\"text-left col-md-8 \" style=\"  padding-left:20px; padding-bottom:20px; color:#a1a9b0; font-size:15px; \">";
-                teamContext+="<h1 style=\"color:white; \" >"+ hashT[0]+"</h1>";
+                teamContext+="<h1 style=\"color:white; \" >"+ hashT[0]+"老師組</h1>";
 
-                    for(var j=1;j<hashT.length;j++){
-                    	 teamContext+= hashT[j]+"<br>";
-                    }
+              //      for(var j=1;j<hashT.length;j++){
+            //        	 teamContext+= hashT[j]+"<br>";
+                //    }
                 teamContext+="</div>";
+	 				teamContext+="<div class=\"text-right col-md-4 \" style=\"  padding-left:20px; padding-bottom:20px; color:#a1a9b0; font-size:15px; \">";
+	                teamContext+="<h1><a style=\"color:white; font-size:20px;\" class=\"various \" data-fancybox-type=\"iframe\" href=\"teacherfancybox.html?text=" + hashT[0] + "\">關於 "+ hashT[0]+" 老師</a></h1>";
 
+            
                 teamContext+="</div>";
+                teamContext+="</div>";
+                
+
              	
 
              	teamContext+="<div class=\"col-md-12\" style=\"padding-top:50px; background-color:white;\" >";
