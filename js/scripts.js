@@ -2,6 +2,7 @@
 
 
 $(document).ready(function() {
+	//alert($(window).width());
 	var ID;
 	$('.wp1').waypoint(function() {
 		$('.wp1').addClass('animated fadeInLeft');
@@ -39,7 +40,7 @@ $(document).ready(function() {
 	}, {
 		offset: '75%'
 	});
-	if($(window).width()<800){
+	if($(window).width()<1000){
 
 	$('.wp8').waypoint(function() {
 		$('.wp9').removeClass('animated fadeInUp hover');
