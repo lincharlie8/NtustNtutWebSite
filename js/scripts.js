@@ -8,11 +8,7 @@ $(document).ready(function() {
 	}, {
 		offset: '75%'
 	});
-	$('.wp10').waypoint(function() {
-		$('.wp10').addClass('animated fadeInLeft');
-	}, {
-		offset: '75%'
-	});
+	
 	$('.wp2').waypoint(function() {
 		$('.wp2').addClass('animated fadeInUp');
 	}, {
@@ -59,7 +55,7 @@ $(document).ready(function() {
 	$('.wp9').waypoint(function() {
 		
 		
-		$('.wp8').removeClass('animated fadeInUp hover');
+		
 		$('.wp10').removeClass('animated fadeInUp hover');
 		$('.wp11').removeClass('animated fadeInUp hover');
 
@@ -72,7 +68,7 @@ $(document).ready(function() {
 	$('.wp10').waypoint(function() {
 		
 		$('.wp8').removeClass('animated fadeInUp hover');
-		$('.wp9').removeClass('animated fadeInUp hover');
+		
 		$('.wp11').removeClass('animated fadeInUp hover');
 		
 
@@ -85,7 +81,7 @@ $(document).ready(function() {
 		
 		$('.wp8').removeClass('animated fadeInUp hover');
 		$('.wp9').removeClass('animated fadeInUp hover');
-		$('.wp10').removeClass('animated fadeInUp hover');
+		
 
 		$('.wp11').addClass('animated fadeInUp hover');
 	}, {
