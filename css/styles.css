@@ -406,7 +406,7 @@ Waypoints
     background-color: rgba(255,255,255,.3);
 }
 
-@media(min-width:767px) {
+
     .navbar {
         padding: 20px 0;
         border-bottom: 0;
@@ -441,7 +441,7 @@ Waypoints
     .pc td{
     	font-size: 16px;
     }
-}
+
 @media(max-width:600px) {
 	.ignite-cta { background-color: #cccccc; padding: 30px 0 10px 0; }
     .navbar {
