@@ -136,13 +136,14 @@ $(function() {
 
 /***************** Nav Transformicon ******************/
 
-document.querySelector("#nav-toggle").addEventListener("click", function() {
-	this.classList.toggle("active");
-});
+
 
 /***************** Overlays ******************/
 
 $(document).ready(function(){
+	document.querySelector("#nav-toggle").addEventListener("click", function() {
+	this.classList.toggle("active");
+	});	
     if (Modernizr.touch) {
         // show the close overlay button
         $(".close-overlay").removeClass("hidden");
