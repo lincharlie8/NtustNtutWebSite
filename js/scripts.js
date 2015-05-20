@@ -41,7 +41,8 @@ $(document).ready(function() {
 		offset: '75%'
 	});
 	if($(window).width()<900){
-
+		$(".tabpc").text(" ");
+		$(".map").attr("width","100%");
 	$('.wp8').waypoint(function() {
 		$('.wp9').removeClass('animated fadeInUp hover');
 		$('.wp10').removeClass('animated fadeInUp hover');

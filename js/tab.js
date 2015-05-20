@@ -88,7 +88,8 @@ $(function(){
                         
                     teamContext+="<div >";
                     teamContext+="<a class=\"various \" data-fancybox-type=\"iframe\" href=\"fancybox.html?text="+ hashD[0]+"&page="+hashD[2]+"\">";
-                    teamContext+="<img src=\"img/student/"+ hashD[0]+"/00_compressed.jpg\" heis=\""+ hashD[0]+"\" class=\"icon\">";
+                    //teamContext+="<img src=\"img/student/"+ hashD[0]+"/00_compressed.jpg\" heis=\""+ hashD[0]+"\" class=\"icon\">";
+                    teamContext+="<img src=\"img/student/"+ hashD[0]+"/00.png\" heis=\""+ hashD[0]+"\" class=\"icon\">";
                     teamContext+="</a>";
                     teamContext+="</div>";
                     teamContext+="<div>";

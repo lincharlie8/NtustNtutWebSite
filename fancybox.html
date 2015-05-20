@@ -26,10 +26,10 @@
 </head>
 	<body>
 		 
-		 <div id="slider1_container" style="position: relative; top: 10px; left: 0px; width: 1200px;
+		 <div id="slider1_container" style="position: relative; top: 10px; left: 0px; width: 1500px;
         height: 1200px; overflow: hidden;">
         <!-- Slides Container -->
-        <div class="Photo" u="slides" style="cursor: move; position: absolute; left: 0px; top: 10px; width: 1200px; height: 1114px;
+        <div class="Photo" u="slides" style="cursor: move; position: absolute; left: 0px; top: 10px; width: 1500px; height: 1114px;
             overflow: hidden;">
             
             
@@ -48,6 +48,9 @@
             */
             body{
                 background-color: black;
+            }
+            .previewPic{
+               
             }
             .jssora13l, .jssora13r, .jssora13ldn, .jssora13rdn {
                 position: absolute;
@@ -122,11 +125,20 @@
 	
 
         jQuery(document).ready(function ($) {
+            
+
+            // Create new offscreen image to test
+            
 
             num=1;
             var output =" ";
             var conTxt="";
-            conTxt=" ";
+            var width=831;
+            var height=1114;
+
+
+            conTxt="";
+
             while(num<=getUrlVars()["page"]){
 
     
@@ -135,17 +147,33 @@
                 num++;
             }
                     //conTxt+="<div><img u=\"image\" src=\"img/student/end.png\" data-magnify-src=\"img/student/end.png\"/></div>";
+            
 
-                             $(".Photo").append(conTxt);
-            var options = {
+
+            $(".Photo").append(conTxt);
+             var imgLoad = $("<img />");
+             var imgWidth=0;
+             var imgHeight=0;
+            imgLoad.attr("src","img/student/"+getUrlVars()["text"]+"/00.png");
+            imgLoad.unbind("load");
+            imgLoad.bind("load", function () {
+
+               // Get image sizes
+               imgWidth=this.width;
+               imgHeight=this.height;
+            
+
+                var viewWidth=imgWidth*(1114/imgHeight);
+
+               var options = {
                 $AutoPlay: false,
 
                 $PauseOnHover: 1,                               //[Optional] Whether to pause when mouse over if a slideshow is auto playing, default value is false
 
-                $ArrowKeyNavigation: true,   			            //Allows arrow key to navigate or not
-                $SlideWidth: 831,                                   //[Optional] Width of every slide in pixels, the default is width of 'slides' container
-                $SlideHeight: 1114,                                  //[Optional] Height of every slide in pixels, the default is width of 'slides' container
-                $SlideSpacing: 0, 					                //Space between each slide in pixels
+                $ArrowKeyNavigation: true,                          //Allows arrow key to navigate or not
+                $SlideWidth: viewWidth,                                   //[Optional] Width of every slide in pixels, the default is width of 'slides' container
+                $SlideHeight: height,                                  //[Optional] Height of every slide in pixels, the default is width of 'slides' container
+                $SlideSpacing: 0,                                   //Space between each slide in pixels
                 $DisplayPieces: 2,                                  //Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
                 $ParkingPosition: 0,                                //The offset position to park slide (this options applys only when slideshow disabled).
 
@@ -173,6 +201,20 @@
             $(window).bind("load", ScaleSlider);
             $(window).bind("resize", ScaleSlider);
             $(window).bind("orientationchange", ScaleSlider);
+
+
+            });
+            
+           
+            
+            
+           
+
+            // Get accurate measurements from that.
+            
+            
+
+           
             //responsive code end
         });
     </script>
