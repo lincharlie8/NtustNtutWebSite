@@ -1,6 +1,5 @@
-﻿高睿陽;摘月;4
-許文馨;婆娑;4
-張智凱;攜帶型飲水機;4
-李蘋;吊燈;4
-高緒維;行動電源;4
-羅崑豐;腳踏車配備;4
+﻿許文馨;Posuo婆娑;4
+張智凱;Portable Fountain 攜帶型飲水器;4
+李蘋;微光精靈 Elves of Light;4
+高緒維;Tris-rotate power bank;4
+羅崑峰;Reflex Photography;4
