@@ -35,7 +35,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
-
+     <div id="fb-root"></div>
+          <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/ja_KS/sdk.js#xfbml=1&version=v2.3";
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script>
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -75,9 +82,9 @@
                         <li>
                             <a class="select select_design" href="#design">我們的作品</a>
                         </li>
-                        <!--li >
-                            <a class="select"   href="#responsive">周邊商品</a>
-                        </li-->
+                        <li >
+                            <a class="select"   href="#responsive">畢刊預購</a>
+                        </li>
                         <li>
                             <a class="select"href="#contact">展覽地點</a>
                         </li>
@@ -106,12 +113,16 @@
                   <h1 class="hidden">質變</h1>
                   <h2 class="animated fadeInUp delay-10s text-left" >台灣科技大學x台北科技大學<span>聯展</span></h2>
                   <p class="animated fadeInUp delay-10s text-left" ><span>松山文創園區一號倉庫</span>5/26 - 6/01</p>
+                  <div class="fb-share-button" data-href="http://tttgraduation2015.nado.tw/" data-layout="button_count" style="margin:20px;">
+                  </div>
                 </div>
               </div>
               
             </div>
-          </section>
 
+             
+          </section>
+        
 
         </header>
         <section class="swag text-center" id="slogen">
@@ -478,7 +489,45 @@
        
 
 
+        <section class="dark-bg text-center section-padding contact-wrap" id="responsive" style="padding:20px 0 50px;">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">畢刊預購</h1>
+              </div>
+            </div>
+            <div class="row contact-details">
+              <div class="col-md-6" style="height:500px;">
+                
+                
+                <div class="light-box box-hover" style="height:500px;">
+                  <div>
+                  <img class="col-md-10 col-md-offset-1" src="./img/book1.jpg" style="margin-right:30px;">
+                 </div>
+                 
+                  <h2><i class="fa "></i>國立台灣科技大學</h2>
+                  <p>建築系畢刊</p>
+                </div>
+              </div>
+              <div class="col-md-6" style="height:500px;">
 
+                <div class="light-box box-hover" style="height:500px; ">
+                   <div>
+                   <img class="col-md-10  col-md-offset-1" src="./img/book2.jpg"  style="margin-right:30px;">
+                   </div>
+                   
+                  <h2><i class="fa "></i>國立台北科技大學</h2>
+                  <p>創意設計學士班畢刊</p>
+                </div>
+              </div>
+            </div> 
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                  <a href="https://docs.google.com/forms/d/1FaXW0ZYa8d4kBleDDzaHG49vw-ypThMbt0WXN11D2ms/viewform" target="_blank" class="learn-more-btn" >前往預購</a>
+                </div>
+              </div>
+          </div>
+        </section>
 
 
 
@@ -526,6 +575,9 @@
 
         </section>
 
+
+
+
         <footer>
           <div class="container">
              <div class="row">
@@ -534,14 +586,16 @@
               </div>
                
                <div class="col-md-11 ">
-                 <img src="./img/da/1.jpg" width="auto" height="70px" style="margin: 10px; background:white; padding:5px;">
-                 <img src="./img/da/2.jpg" width="auto" height="70px" style="margin: 10px; background:white;padding:5px;">
-                 <img src="./img/da/4.jpg" width="auto" height="70px" style="margin: 10px; background:white; padding:5px;">
-                 <img src="./img/da/5.jpg" width="auto" height="70px"style="margin: 10px; background:white; padding:5px;" >
-                 <img src="./img/da/3.jpg" width="auto" height="70px"style="margin: 10px; background:white; padding:5px;">
+                 <img src="./img/da/1.jpg" width="auto" height="60px" style="margin: 10px; background:white; padding:5px;">
+                 <img src="./img/da/2.jpg" width="auto" height="60px" style="margin: 10px; background:white;padding:5px;">
+                 <img src="./img/da/4.jpg" width="auto" height="60px" style="margin: 10px; background:white; padding:5px;">
+                 <img src="./img/da/5.jpg" width="auto" height="60px"style="margin: 10px; background:white; padding:5px;" >
+                 <img src="./img/da/6.jpg" width="auto" height="60px"style="margin: 10px; background:white; padding:5px;">
+                  <img src="./img/da/7.jpg" width="auto" height="60px" style="margin: 10px; background:white; padding:5px;">
+                 <img id="toolongLogo" src="./img/da/3.jpg" width="auto" height="60px"style="margin: 10px; background:white; padding:5px;">
                  
-                 <img src="./img/da/6.jpg" width="auto" height="70px"style="margin: 10px; background:white; padding:5px;">
-                 <img src="./img/da/7.jpg" width="auto" height="70px" style="margin: 10px; background:white; padding:5px;">
+                 
+                
               </div>
             
             </div>

@@ -43,6 +43,9 @@ $(document).ready(function() {
 	if($(window).width()<900){
 		$(".tabpc").text(" ");
 		$(".map").attr("width","100%");
+		$("#toolongLogo").attr("width","100%");
+		$("#toolongLogo").attr("height","auto");
+
 	$('.wp8').waypoint(function() {
 		$('.wp9').removeClass('animated fadeInUp hover');
 		$('.wp10').removeClass('animated fadeInUp hover');
