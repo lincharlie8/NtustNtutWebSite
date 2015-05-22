@@ -47,7 +47,7 @@
             .jssora13rdn            (mousedown)
             */
             body{
-                background-color: black;
+                background-color: white;
             }
             .previewPic{
                
@@ -154,7 +154,7 @@
              var imgLoad = $("<img />");
              var imgWidth=0;
              var imgHeight=0;
-            imgLoad.attr("src","img/student/"+getUrlVars()["text"]+"/00.jpg");
+            imgLoad.attr("src","img/student/"+getUrlVars()["text"]+"/"+getUrlVars()["text"]+"1.jpg");
             imgLoad.unbind("load");
             imgLoad.bind("load", function () {
 
