@@ -205,7 +205,7 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 /* ==========================================================================
 Hero
 ========================================================================== */
-.hero {  background: url('../img/ttt.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
+.hero {  background: url('../img/TTT.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
 .hero img{ margin: -100px 10px -20px 10px;}
 .hero h1 { color: #000000;font-size: 50px; letter-spacing: 12px; margin: 10px; }
 .hero h1 span { color: #DB4D6D; display: inline-block; }
@@ -213,6 +213,7 @@ Hero
 .hero p span { color:  #43341B; display: inline-block; }
 .hero h2 { color: #000000; font-size:40px; letter-spacing: 1px;  margin: 10px 10px 20px 10px;}
 .hero h2 span { color:  #43341B; display: inline-block; }
+
 
 .learn-more-btn { font-size:20px;  background: rgba(61, 201, 179, 1); padding: 20px 60px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #309383; -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px #309383; margin: 20px 0 0; font-weight: bold; }
 .learn-more-btn:hover, .learn-more-btn:focus { background: yellow; color: #000000; }
